@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2O-ba-OlG">
+                                <rect key="frame" x="170.5" y="179" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uPk-77-COa"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame_0_delay-0.03s.gif" translatesAutoresizingMaskIntoConstraints="NO" id="foP-ga-EvP">
+                                <rect key="frame" x="16" y="226" width="343" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="foP-ga-EvP" secondAttribute="height" multiplier="343:187" id="wY7-gO-1Pc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6M-E7-boh">
+                                <rect key="frame" x="323" y="437" width="36" height="30"/>
+                                <state key="normal" title="Grow"/>
+                                <connections>
+                                    <action selector="grow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ir-Mu-Bmm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fId-8H-qGJ">
+                                <rect key="frame" x="162.5" y="437" width="50" height="30"/>
+                                <state key="normal" title="Slide In"/>
+                                <connections>
+                                    <action selector="slideIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeW-6E-0W0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cl-nF-PQd">
+                                <rect key="frame" x="16" y="437" width="50" height="30"/>
+                                <state key="normal" title="Fade In"/>
+                                <connections>
+                                    <action selector="fadeIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MJG-Y4-p6P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3cl-nF-PQd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4RG-dE-qMX"/>
+                            <constraint firstItem="foP-ga-EvP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JDU-tX-zOm"/>
+                            <constraint firstItem="3cl-nF-PQd" firstAttribute="top" secondItem="foP-ga-EvP" secondAttribute="bottom" constant="24" id="KAg-oR-XKM"/>
+                            <constraint firstItem="i2O-ba-OlG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="159" id="KNZ-4L-krM"/>
+                            <constraint firstItem="fId-8H-qGJ" firstAttribute="top" secondItem="foP-ga-EvP" secondAttribute="bottom" constant="24" id="LW5-wy-eNu"/>
+                            <constraint firstItem="i2O-ba-OlG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bbA-Ml-Twb"/>
+                            <constraint firstItem="foP-ga-EvP" firstAttribute="top" secondItem="i2O-ba-OlG" secondAttribute="bottom" constant="17" id="cMq-Fs-D0i"/>
+                            <constraint firstItem="foP-ga-EvP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e91-hJ-4bo"/>
+                            <constraint firstItem="d6M-E7-boh" firstAttribute="top" secondItem="foP-ga-EvP" secondAttribute="bottom" constant="24" id="jty-B9-nGs"/>
+                            <constraint firstItem="d6M-E7-boh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pBs-mz-ddC"/>
+                            <constraint firstItem="fId-8H-qGJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pcc-k2-gEM"/>
+                            <constraint firstItem="foP-ga-EvP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="s74-DE-nav"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gitImageView" destination="foP-ga-EvP" id="yKF-Ks-MBB"/>
+                        <outlet property="startStopButton" destination="i2O-ba-OlG" id="Ega-w9-yLJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame_0_delay-0.03s.gif" width="480" height="268"/>
+    </resources>
+</document>

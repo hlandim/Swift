@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C396D9F41DD6884800FFEF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396D9F31DD6884800FFEF44 /* AppDelegate.swift */; };
+		C396D9F61DD6884800FFEF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396D9F51DD6884800FFEF44 /* ViewController.swift */; };
+		C396D9F91DD6884800FFEF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C396D9F71DD6884800FFEF44 /* Main.storyboard */; };
+		C396D9FB1DD6884800FFEF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C396D9FA1DD6884800FFEF44 /* Assets.xcassets */; };
+		C396D9FE1DD6884800FFEF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C396D9FC1DD6884800FFEF44 /* LaunchScreen.storyboard */; };
+		C396DA091DD6884800FFEF44 /* Permanent_Data_StoregeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DA081DD6884800FFEF44 /* Permanent_Data_StoregeTests.swift */; };
+		C396DA141DD6884800FFEF44 /* Permanent_Data_StoregeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DA131DD6884800FFEF44 /* Permanent_Data_StoregeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C396DA051DD6884800FFEF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C396D9E81DD6884800FFEF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C396D9EF1DD6884800FFEF44;
+			remoteInfo = "Permanent Data Storege";
+		};
+		C396DA101DD6884800FFEF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C396D9E81DD6884800FFEF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C396D9EF1DD6884800FFEF44;
+			remoteInfo = "Permanent Data Storege";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C396D9F01DD6884800FFEF44 /* Permanent Data Storege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Permanent Data Storege.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396D9F31DD6884800FFEF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C396D9F51DD6884800FFEF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C396D9F81DD6884800FFEF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C396D9FA1DD6884800FFEF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C396D9FD1DD6884800FFEF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C396D9FF1DD6884800FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C396DA041DD6884800FFEF44 /* Permanent Data StoregeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Permanent Data StoregeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396DA081DD6884800FFEF44 /* Permanent_Data_StoregeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permanent_Data_StoregeTests.swift; sourceTree = "<group>"; };
+		C396DA0A1DD6884800FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C396DA0F1DD6884800FFEF44 /* Permanent Data StoregeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Permanent Data StoregeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396DA131DD6884800FFEF44 /* Permanent_Data_StoregeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permanent_Data_StoregeUITests.swift; sourceTree = "<group>"; };
+		C396DA151DD6884800FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C396D9ED1DD6884800FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA011DD6884800FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA0C1DD6884800FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C396D9E71DD6884800FFEF44 = {
+			isa = PBXGroup;
+			children = (
+				C396D9F21DD6884800FFEF44 /* Permanent Data Storege */,
+				C396DA071DD6884800FFEF44 /* Permanent Data StoregeTests */,
+				C396DA121DD6884800FFEF44 /* Permanent Data StoregeUITests */,
+				C396D9F11DD6884800FFEF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C396D9F11DD6884800FFEF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C396D9F01DD6884800FFEF44 /* Permanent Data Storege.app */,
+				C396DA041DD6884800FFEF44 /* Permanent Data StoregeTests.xctest */,
+				C396DA0F1DD6884800FFEF44 /* Permanent Data StoregeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C396D9F21DD6884800FFEF44 /* Permanent Data Storege */ = {
+			isa = PBXGroup;
+			children = (
+				C396D9F31DD6884800FFEF44 /* AppDelegate.swift */,
+				C396D9F51DD6884800FFEF44 /* ViewController.swift */,
+				C396D9F71DD6884800FFEF44 /* Main.storyboard */,
+				C396D9FA1DD6884800FFEF44 /* Assets.xcassets */,
+				C396D9FC1DD6884800FFEF44 /* LaunchScreen.storyboard */,
+				C396D9FF1DD6884800FFEF44 /* Info.plist */,
+			);
+			path = "Permanent Data Storege";
+			sourceTree = "<group>";
+		};
+		C396DA071DD6884800FFEF44 /* Permanent Data StoregeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C396DA081DD6884800FFEF44 /* Permanent_Data_StoregeTests.swift */,
+				C396DA0A1DD6884800FFEF44 /* Info.plist */,
+			);
+			path = "Permanent Data StoregeTests";
+			sourceTree = "<group>";
+		};
+		C396DA121DD6884800FFEF44 /* Permanent Data StoregeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C396DA131DD6884800FFEF44 /* Permanent_Data_StoregeUITests.swift */,
+				C396DA151DD6884800FFEF44 /* Info.plist */,
+			);
+			path = "Permanent Data StoregeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C396D9EF1DD6884800FFEF44 /* Permanent Data Storege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DA181DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data Storege" */;
+			buildPhases = (
+				C396D9EC1DD6884800FFEF44 /* Sources */,
+				C396D9ED1DD6884800FFEF44 /* Frameworks */,
+				C396D9EE1DD6884800FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Permanent Data Storege";
+			productName = "Permanent Data Storege";
+			productReference = C396D9F01DD6884800FFEF44 /* Permanent Data Storege.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C396DA031DD6884800FFEF44 /* Permanent Data StoregeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DA1B1DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data StoregeTests" */;
+			buildPhases = (
+				C396DA001DD6884800FFEF44 /* Sources */,
+				C396DA011DD6884800FFEF44 /* Frameworks */,
+				C396DA021DD6884800FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C396DA061DD6884800FFEF44 /* PBXTargetDependency */,
+			);
+			name = "Permanent Data StoregeTests";
+			productName = "Permanent Data StoregeTests";
+			productReference = C396DA041DD6884800FFEF44 /* Permanent Data StoregeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C396DA0E1DD6884800FFEF44 /* Permanent Data StoregeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DA1E1DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data StoregeUITests" */;
+			buildPhases = (
+				C396DA0B1DD6884800FFEF44 /* Sources */,
+				C396DA0C1DD6884800FFEF44 /* Frameworks */,
+				C396DA0D1DD6884800FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C396DA111DD6884800FFEF44 /* PBXTargetDependency */,
+			);
+			name = "Permanent Data StoregeUITests";
+			productName = "Permanent Data StoregeUITests";
+			productReference = C396DA0F1DD6884800FFEF44 /* Permanent Data StoregeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C396D9E81DD6884800FFEF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hugo Landim Santos";
+				TargetAttributes = {
+					C396D9EF1DD6884800FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C396DA031DD6884800FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C396D9EF1DD6884800FFEF44;
+					};
+					C396DA0E1DD6884800FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C396D9EF1DD6884800FFEF44;
+					};
+				};
+			};
+			buildConfigurationList = C396D9EB1DD6884800FFEF44 /* Build configuration list for PBXProject "Permanent Data Storege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C396D9E71DD6884800FFEF44;
+			productRefGroup = C396D9F11DD6884800FFEF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C396D9EF1DD6884800FFEF44 /* Permanent Data Storege */,
+				C396DA031DD6884800FFEF44 /* Permanent Data StoregeTests */,
+				C396DA0E1DD6884800FFEF44 /* Permanent Data StoregeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C396D9EE1DD6884800FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396D9FE1DD6884800FFEF44 /* LaunchScreen.storyboard in Resources */,
+				C396D9FB1DD6884800FFEF44 /* Assets.xcassets in Resources */,
+				C396D9F91DD6884800FFEF44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA021DD6884800FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA0D1DD6884800FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C396D9EC1DD6884800FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396D9F61DD6884800FFEF44 /* ViewController.swift in Sources */,
+				C396D9F41DD6884800FFEF44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA001DD6884800FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396DA091DD6884800FFEF44 /* Permanent_Data_StoregeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DA0B1DD6884800FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396DA141DD6884800FFEF44 /* Permanent_Data_StoregeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C396DA061DD6884800FFEF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C396D9EF1DD6884800FFEF44 /* Permanent Data Storege */;
+			targetProxy = C396DA051DD6884800FFEF44 /* PBXContainerItemProxy */;
+		};
+		C396DA111DD6884800FFEF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C396D9EF1DD6884800FFEF44 /* Permanent Data Storege */;
+			targetProxy = C396DA101DD6884800FFEF44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C396D9F71DD6884800FFEF44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396D9F81DD6884800FFEF44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C396D9FC1DD6884800FFEF44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396D9FD1DD6884800FFEF44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C396DA161DD6884800FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C396DA171DD6884800FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C396DA191DD6884800FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Permanent Data Storege/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-Storege";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C396DA1A1DD6884800FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Permanent Data Storege/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-Storege";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C396DA1C1DD6884800FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Permanent Data StoregeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-StoregeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Permanent Data Storege.app/Permanent Data Storege";
+			};
+			name = Debug;
+		};
+		C396DA1D1DD6884800FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Permanent Data StoregeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-StoregeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Permanent Data Storege.app/Permanent Data Storege";
+			};
+			name = Release;
+		};
+		C396DA1F1DD6884800FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Permanent Data StoregeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-StoregeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Permanent Data Storege";
+			};
+			name = Debug;
+		};
+		C396DA201DD6884800FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Permanent Data StoregeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlandim.Permanent-Data-StoregeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Permanent Data Storege";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C396D9EB1DD6884800FFEF44 /* Build configuration list for PBXProject "Permanent Data Storege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DA161DD6884800FFEF44 /* Debug */,
+				C396DA171DD6884800FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396DA181DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data Storege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DA191DD6884800FFEF44 /* Debug */,
+				C396DA1A1DD6884800FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C396DA1B1DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data StoregeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DA1C1DD6884800FFEF44 /* Debug */,
+				C396DA1D1DD6884800FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C396DA1E1DD6884800FFEF44 /* Build configuration list for PBXNativeTarget "Permanent Data StoregeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DA1F1DD6884800FFEF44 /* Debug */,
+				C396DA201DD6884800FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C396D9E81DD6884800FFEF44 /* Project object */;
+}
