@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JogoDaVelha" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxE-Y8-OrB">
+                                <rect key="frame" x="16" y="77" width="288" height="326"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="C3i-Q6-62f"/>
+                                    <constraint firstAttribute="height" constant="326" id="pmb-Wz-Tnv"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="RUk-dz-3Bq" kind="embed" identifier="containerButtons" id="FuD-Rx-sVH"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70f-aI-8Qu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jogo da velha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RL6-ds-vU6">
+                                        <rect key="frame" x="0.0" y="8" width="320" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <button opaque="NO" alpha="0.34999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRi-uq-LBE">
+                                        <rect key="frame" x="0.0" y="42" width="320" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="0.094102241098880768" green="0.085527591407299042" blue="0.65048664808273315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAgainClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4X-YV-QNg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.019707439467310905" green="0.015672734007239342" blue="0.015635812655091286" alpha="0.14196510036496351" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="RL6-ds-vU6" firstAttribute="leading" secondItem="70f-aI-8Qu" secondAttribute="leading" id="1Rs-pk-7Em"/>
+                                    <constraint firstAttribute="trailing" secondItem="RL6-ds-vU6" secondAttribute="trailing" id="3JH-Ke-HsX"/>
+                                    <constraint firstAttribute="trailing" secondItem="gRi-uq-LBE" secondAttribute="trailing" id="9iv-25-jvA"/>
+                                    <constraint firstItem="gRi-uq-LBE" firstAttribute="leading" secondItem="70f-aI-8Qu" secondAttribute="leading" id="JEv-zA-LNX"/>
+                                    <constraint firstItem="gRi-uq-LBE" firstAttribute="top" secondItem="RL6-ds-vU6" secondAttribute="bottom" constant="6" id="WPP-8X-M3T"/>
+                                    <constraint firstItem="RL6-ds-vU6" firstAttribute="top" secondItem="70f-aI-8Qu" secondAttribute="top" constant="8" id="mXP-WR-4UJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jxE-Y8-OrB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fq9-o9-gHZ"/>
+                            <constraint firstItem="jxE-Y8-OrB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MY6-pH-iLe"/>
+                            <constraint firstAttribute="trailing" secondItem="70f-aI-8Qu" secondAttribute="trailing" id="Xy7-FE-Qq8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="70f-aI-8Qu" secondAttribute="bottom" id="kgG-aI-noJ"/>
+                            <constraint firstItem="70f-aI-8Qu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nih-92-gzr"/>
+                            <constraint firstItem="70f-aI-8Qu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vTM-NM-WnG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playAgainButton" destination="gRi-uq-LBE" id="64O-ys-Et5"/>
+                        <outlet property="viewMsg" destination="70f-aI-8Qu" id="SZR-Uy-S65"/>
+                        <outlet property="wonLabel" destination="RL6-ds-vU6" id="B4p-my-EER"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="133.09859154929578"/>
+        </scene>
+        <!--Container Controller-->
+        <scene sceneID="Wio-B8-VIN">
+            <objects>
+                <viewController storyboardIdentifier="containerButtons" id="RUk-dz-3Bq" customClass="ContainerController" customModule="JogoDaVelha" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GFG-xZ-7Qm"/>
+                        <viewControllerLayoutGuide type="bottom" id="rOH-1p-6UM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gyZ-Ne-bue">
+                        <rect key="frame" x="0.0" y="0.0" width="288" height="326"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="xb6-jw-lzG">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="326"/>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30T-Z4-Lxv">
+                                <rect key="frame" x="205" y="123" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="2Ec-Up-TdL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsL-wp-GVX">
+                                <rect key="frame" x="7" y="11" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="azP-6p-Rz8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWw-ax-7Bw">
+                                <rect key="frame" x="205" y="235" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="nU9-zs-dRa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRJ-uy-Ozg">
+                                <rect key="frame" x="104" y="11" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="oUp-aT-WAT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQa-OY-RMt">
+                                <rect key="frame" x="205" y="11" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="fuw-Ic-MdY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a74-aZ-qhl">
+                                <rect key="frame" x="104" y="123" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="fIo-1n-cch"/>
+                                    <constraint firstAttribute="height" constant="80" id="pmY-Rr-gIE"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="UJ8-Dx-8fV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYa-B4-rQK">
+                                <rect key="frame" x="7" y="235" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="lXW-GW-2uS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ao3-67-go4">
+                                <rect key="frame" x="104" y="235" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="hOW-zH-6lZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTT-FB-uKq">
+                                <rect key="frame" x="7" y="123" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cross.png"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="RUk-dz-3Bq" eventType="touchUpInside" id="eRw-Hb-xFQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb6-jw-lzG" firstAttribute="centerY" secondItem="gyZ-Ne-bue" secondAttribute="centerY" id="1xq-nX-GN8"/>
+                            <constraint firstItem="xb6-jw-lzG" firstAttribute="top" secondItem="GFG-xZ-7Qm" secondAttribute="bottom" id="EdP-wE-n6r"/>
+                            <constraint firstItem="xb6-jw-lzG" firstAttribute="centerX" secondItem="gyZ-Ne-bue" secondAttribute="centerX" id="JWX-g2-FTe"/>
+                            <constraint firstAttribute="trailing" secondItem="xb6-jw-lzG" secondAttribute="trailing" id="S5C-J6-rV2"/>
+                            <constraint firstItem="xb6-jw-lzG" firstAttribute="leading" secondItem="gyZ-Ne-bue" secondAttribute="leading" id="SyI-tN-atQ"/>
+                            <constraint firstItem="a74-aZ-qhl" firstAttribute="centerY" secondItem="gyZ-Ne-bue" secondAttribute="centerY" id="dcX-yB-oho"/>
+                            <constraint firstItem="rOH-1p-6UM" firstAttribute="top" secondItem="xb6-jw-lzG" secondAttribute="bottom" id="gUM-OZ-ctv"/>
+                            <constraint firstItem="a74-aZ-qhl" firstAttribute="centerX" secondItem="gyZ-Ne-bue" secondAttribute="centerX" id="njX-3V-U2q"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="doj-O8-Mpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.5" y="186.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="board.png" width="744" height="783"/>
+        <image name="cross.png" width="214" height="214"/>
+    </resources>
+</document>

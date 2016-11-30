@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3327AF51DEE6B2100694EED /* cross_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C3327AF31DEE6B2100694EED /* cross_blue.png */; };
+		C3327AF61DEE6B2100694EED /* nought_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C3327AF41DEE6B2100694EED /* nought_blue.png */; };
+		C396DBF81DE670C100FFEF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DBF71DE670C100FFEF44 /* AppDelegate.swift */; };
+		C396DBFA1DE670C100FFEF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DBF91DE670C100FFEF44 /* ViewController.swift */; };
+		C396DBFD1DE670C100FFEF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C396DBFB1DE670C100FFEF44 /* Main.storyboard */; };
+		C396DBFF1DE670C100FFEF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C396DBFE1DE670C100FFEF44 /* Assets.xcassets */; };
+		C396DC021DE670C100FFEF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C396DC001DE670C100FFEF44 /* LaunchScreen.storyboard */; };
+		C396DC0D1DE670C100FFEF44 /* JogoDaVelhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DC0C1DE670C100FFEF44 /* JogoDaVelhaTests.swift */; };
+		C396DC181DE670C100FFEF44 /* JogoDaVelhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DC171DE670C100FFEF44 /* JogoDaVelhaUITests.swift */; };
+		C396DC281DE6715F00FFEF44 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C396DC251DE6715F00FFEF44 /* board.png */; };
+		C396DC291DE6715F00FFEF44 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = C396DC261DE6715F00FFEF44 /* cross.png */; };
+		C396DC2A1DE6715F00FFEF44 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = C396DC271DE6715F00FFEF44 /* nought.png */; };
+		C396DC2C1DE90B9100FFEF44 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396DC2B1DE90B9100FFEF44 /* ContainerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C396DC091DE670C100FFEF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C396DBEC1DE670C100FFEF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C396DBF31DE670C100FFEF44;
+			remoteInfo = JogoDaVelha;
+		};
+		C396DC141DE670C100FFEF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C396DBEC1DE670C100FFEF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C396DBF31DE670C100FFEF44;
+			remoteInfo = JogoDaVelha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3327AF31DEE6B2100694EED /* cross_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_blue.png; sourceTree = "<group>"; };
+		C3327AF41DEE6B2100694EED /* nought_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought_blue.png; sourceTree = "<group>"; };
+		C396DBF41DE670C100FFEF44 /* JogoDaVelha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoDaVelha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396DBF71DE670C100FFEF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C396DBF91DE670C100FFEF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C396DBFC1DE670C100FFEF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C396DBFE1DE670C100FFEF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C396DC011DE670C100FFEF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C396DC031DE670C100FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C396DC081DE670C100FFEF44 /* JogoDaVelhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaVelhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396DC0C1DE670C100FFEF44 /* JogoDaVelhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaTests.swift; sourceTree = "<group>"; };
+		C396DC0E1DE670C100FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C396DC131DE670C100FFEF44 /* JogoDaVelhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaVelhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396DC171DE670C100FFEF44 /* JogoDaVelhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaUITests.swift; sourceTree = "<group>"; };
+		C396DC191DE670C100FFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C396DC251DE6715F00FFEF44 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		C396DC261DE6715F00FFEF44 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		C396DC271DE6715F00FFEF44 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		C396DC2B1DE90B9100FFEF44 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C396DBF11DE670C100FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC051DE670C100FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC101DE670C100FFEF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C396DBEB1DE670C100FFEF44 = {
+			isa = PBXGroup;
+			children = (
+				C396DBF61DE670C100FFEF44 /* JogoDaVelha */,
+				C396DC0B1DE670C100FFEF44 /* JogoDaVelhaTests */,
+				C396DC161DE670C100FFEF44 /* JogoDaVelhaUITests */,
+				C396DBF51DE670C100FFEF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C396DBF51DE670C100FFEF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C396DBF41DE670C100FFEF44 /* JogoDaVelha.app */,
+				C396DC081DE670C100FFEF44 /* JogoDaVelhaTests.xctest */,
+				C396DC131DE670C100FFEF44 /* JogoDaVelhaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C396DBF61DE670C100FFEF44 /* JogoDaVelha */ = {
+			isa = PBXGroup;
+			children = (
+				C396DBF71DE670C100FFEF44 /* AppDelegate.swift */,
+				C396DBF91DE670C100FFEF44 /* ViewController.swift */,
+				C396DC251DE6715F00FFEF44 /* board.png */,
+				C3327AF31DEE6B2100694EED /* cross_blue.png */,
+				C3327AF41DEE6B2100694EED /* nought_blue.png */,
+				C396DC261DE6715F00FFEF44 /* cross.png */,
+				C396DC271DE6715F00FFEF44 /* nought.png */,
+				C396DBFB1DE670C100FFEF44 /* Main.storyboard */,
+				C396DBFE1DE670C100FFEF44 /* Assets.xcassets */,
+				C396DC001DE670C100FFEF44 /* LaunchScreen.storyboard */,
+				C396DC031DE670C100FFEF44 /* Info.plist */,
+				C396DC2B1DE90B9100FFEF44 /* ContainerController.swift */,
+			);
+			path = JogoDaVelha;
+			sourceTree = "<group>";
+		};
+		C396DC0B1DE670C100FFEF44 /* JogoDaVelhaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C396DC0C1DE670C100FFEF44 /* JogoDaVelhaTests.swift */,
+				C396DC0E1DE670C100FFEF44 /* Info.plist */,
+			);
+			path = JogoDaVelhaTests;
+			sourceTree = "<group>";
+		};
+		C396DC161DE670C100FFEF44 /* JogoDaVelhaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C396DC171DE670C100FFEF44 /* JogoDaVelhaUITests.swift */,
+				C396DC191DE670C100FFEF44 /* Info.plist */,
+			);
+			path = JogoDaVelhaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C396DBF31DE670C100FFEF44 /* JogoDaVelha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DC1C1DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelha" */;
+			buildPhases = (
+				C396DBF01DE670C100FFEF44 /* Sources */,
+				C396DBF11DE670C100FFEF44 /* Frameworks */,
+				C396DBF21DE670C100FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoDaVelha;
+			productName = JogoDaVelha;
+			productReference = C396DBF41DE670C100FFEF44 /* JogoDaVelha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C396DC071DE670C100FFEF44 /* JogoDaVelhaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DC1F1DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelhaTests" */;
+			buildPhases = (
+				C396DC041DE670C100FFEF44 /* Sources */,
+				C396DC051DE670C100FFEF44 /* Frameworks */,
+				C396DC061DE670C100FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C396DC0A1DE670C100FFEF44 /* PBXTargetDependency */,
+			);
+			name = JogoDaVelhaTests;
+			productName = JogoDaVelhaTests;
+			productReference = C396DC081DE670C100FFEF44 /* JogoDaVelhaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C396DC121DE670C100FFEF44 /* JogoDaVelhaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396DC221DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelhaUITests" */;
+			buildPhases = (
+				C396DC0F1DE670C100FFEF44 /* Sources */,
+				C396DC101DE670C100FFEF44 /* Frameworks */,
+				C396DC111DE670C100FFEF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C396DC151DE670C100FFEF44 /* PBXTargetDependency */,
+			);
+			name = JogoDaVelhaUITests;
+			productName = JogoDaVelhaUITests;
+			productReference = C396DC131DE670C100FFEF44 /* JogoDaVelhaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C396DBEC1DE670C100FFEF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					bt1,
+				);
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hugo Landim Santos";
+				TargetAttributes = {
+					C396DBF31DE670C100FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C396DC071DE670C100FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C396DBF31DE670C100FFEF44;
+					};
+					C396DC121DE670C100FFEF44 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C396DBF31DE670C100FFEF44;
+					};
+				};
+			};
+			buildConfigurationList = C396DBEF1DE670C100FFEF44 /* Build configuration list for PBXProject "JogoDaVelha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C396DBEB1DE670C100FFEF44;
+			productRefGroup = C396DBF51DE670C100FFEF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C396DBF31DE670C100FFEF44 /* JogoDaVelha */,
+				C396DC071DE670C100FFEF44 /* JogoDaVelhaTests */,
+				C396DC121DE670C100FFEF44 /* JogoDaVelhaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C396DBF21DE670C100FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3327AF51DEE6B2100694EED /* cross_blue.png in Resources */,
+				C396DC291DE6715F00FFEF44 /* cross.png in Resources */,
+				C396DC281DE6715F00FFEF44 /* board.png in Resources */,
+				C396DC2A1DE6715F00FFEF44 /* nought.png in Resources */,
+				C396DC021DE670C100FFEF44 /* LaunchScreen.storyboard in Resources */,
+				C396DBFF1DE670C100FFEF44 /* Assets.xcassets in Resources */,
+				C3327AF61DEE6B2100694EED /* nought_blue.png in Resources */,
+				C396DBFD1DE670C100FFEF44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC061DE670C100FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC111DE670C100FFEF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C396DBF01DE670C100FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396DBFA1DE670C100FFEF44 /* ViewController.swift in Sources */,
+				C396DBF81DE670C100FFEF44 /* AppDelegate.swift in Sources */,
+				C396DC2C1DE90B9100FFEF44 /* ContainerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC041DE670C100FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396DC0D1DE670C100FFEF44 /* JogoDaVelhaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C396DC0F1DE670C100FFEF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396DC181DE670C100FFEF44 /* JogoDaVelhaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C396DC0A1DE670C100FFEF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C396DBF31DE670C100FFEF44 /* JogoDaVelha */;
+			targetProxy = C396DC091DE670C100FFEF44 /* PBXContainerItemProxy */;
+		};
+		C396DC151DE670C100FFEF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C396DBF31DE670C100FFEF44 /* JogoDaVelha */;
+			targetProxy = C396DC141DE670C100FFEF44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C396DBFB1DE670C100FFEF44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396DBFC1DE670C100FFEF44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C396DC001DE670C100FFEF44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396DC011DE670C100FFEF44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C396DC1A1DE670C100FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C396DC1B1DE670C100FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C396DC1D1DE670C100FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JogoDaVelha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C396DC1E1DE670C100FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JogoDaVelha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C396DC201DE670C100FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JogoDaVelhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaVelha.app/JogoDaVelha";
+			};
+			name = Debug;
+		};
+		C396DC211DE670C100FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JogoDaVelhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaVelha.app/JogoDaVelha";
+			};
+			name = Release;
+		};
+		C396DC231DE670C100FFEF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JogoDaVelhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JogoDaVelha;
+			};
+			name = Debug;
+		};
+		C396DC241DE670C100FFEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JogoDaVelhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlandim.JogoDaVelhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JogoDaVelha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C396DBEF1DE670C100FFEF44 /* Build configuration list for PBXProject "JogoDaVelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DC1A1DE670C100FFEF44 /* Debug */,
+				C396DC1B1DE670C100FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396DC1C1DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DC1D1DE670C100FFEF44 /* Debug */,
+				C396DC1E1DE670C100FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396DC1F1DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelhaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DC201DE670C100FFEF44 /* Debug */,
+				C396DC211DE670C100FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396DC221DE670C100FFEF44 /* Build configuration list for PBXNativeTarget "JogoDaVelhaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396DC231DE670C100FFEF44 /* Debug */,
+				C396DC241DE670C100FFEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C396DBEC1DE670C100FFEF44 /* Project object */;
+}
